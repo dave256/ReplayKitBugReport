@@ -13,6 +13,7 @@
 		031107F11EA03A1F003BF762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031107EF1EA03A1F003BF762 /* Main.storyboard */; };
 		031107F31EA03A1F003BF762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031107F21EA03A1F003BF762 /* Assets.xcassets */; };
 		031107F61EA03A1F003BF762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031107F41EA03A1F003BF762 /* LaunchScreen.storyboard */; };
+		031108011EA03C0C003BF762 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031108001EA03C0C003BF762 /* ReplayKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		031107F21EA03A1F003BF762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		031107F51EA03A1F003BF762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		031107F71EA03A1F003BF762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031108001EA03C0C003BF762 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031108011EA03C0C003BF762 /* ReplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				031107E81EA03A1F003BF762 /* BugReport */,
 				031107E71EA03A1F003BF762 /* Products */,
+				031107FF1EA03C0C003BF762 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				031107F71EA03A1F003BF762 /* Info.plist */,
 			);
 			path = BugReport;
+			sourceTree = "<group>";
+		};
+		031107FF1EA03C0C003BF762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				031108001EA03C0C003BF762 /* ReplayKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
